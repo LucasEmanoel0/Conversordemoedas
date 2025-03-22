@@ -1,0 +1,64 @@
+
+h1{
+    color: var(--blue-700);
+}
+
+button,
+input {
+  all: unset;
+}
+
+
+form{
+    margin-top: 57px;
+    background-color: var(--blue-300);
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid var(--blue-500);
+}
+.wrraper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+    gap: 8px;
+}
+input, select {
+padding: 16px;
+border-radius: 8px;
+outline: none;
+border: 1px solid var(--blue-500);
+background-color: var(--blue-200);
+color: var(--blue-900);
+}
+button{
+    width: 352px;
+    padding: 20px;
+    background-color: var(--blue-200);
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid var(--blue-500);
+    color: aqua;
+}
+button:hover{
+    background-color: var(--blue-500);
+}
+.append{
+    display:none;
+}
+.response{
+    margin-top: 10px;
+    background-color: var(--blue-400) ;
+    color: var(--blue-900);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 8px;
+
+}

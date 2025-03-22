@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--blue-100);
+    padding-block: 64px;
+}
+
+
+:root {
+    --base: #080815;
+    --blue-100: #080815;
+    --blue-200: #141534;
+    --blue-300: #1F2151;
+    --blue-400: #2F3279;
+    --blue-500: #2F34AB;
+    --blue-600: #4ASDCD; /* Nota: Este valor de cor parece estar incorreto. */
+    --blue-700: #7DBDEC;
+    --blue-800: #B2BBDE;
+    --blue-900: #F1F2F6;
+    --white: #F1F2F6;
+
+    --Inter:"Inter", 'sans-serif';
+    --IBM:"IBM Plex Mono", monospace;
+
+
+    --heading:600 48px/48px var(--Inter);
+    --button:700  16px/20px var(--Inter);
+    --body:400 16px/20px var(--Inter);
+    --label:400 12px/16px var(--Inter);
+    --span:400 16px/20px var(--IBM);
+}
+.label{
+    font: var(--label);
+    color: var(--blue-900);
+}
+
